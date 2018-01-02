@@ -2,9 +2,7 @@
 node('slave') {
    // Mark the code checkout 'stage'....
    stage ('Checkout'){
-
-      // Get some code from a GitHub repository
-      checkout scm
+   git url: 'https://github.com/avigabay1/jenkins-examples.git', branch : ‘pipeline’
       
    }
 
