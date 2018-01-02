@@ -2,7 +2,7 @@
 node('slave') {
    // Mark the code checkout 'stage'....
    stage ('Checkout'){
-   git url: 'https://github.com/avigabay1/jenkins-examples.git', branch : ‘pipeline’
+   git url: 'https://github.com/avigabay1/jenkins-examples.git', branch : 'pipeline'
       
    }
 
