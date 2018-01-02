@@ -9,7 +9,7 @@ node('slave') {
    }
 
    // Mark the code build 'stage'....
-   stage ('Build Maven'){
+   stage ('Build Gradle'){
 
    }
 }
